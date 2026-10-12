@@ -1,0 +1,764 @@
+[
+  {
+    "id": "F1",
+    "category": "Negation & constraints",
+    "query": "Who is not eligible to be a Member of the Board?",
+    "gold_phrase": "has been adjudged as an insolvent",
+    "gold_ids": [
+      70
+    ],
+    "top10": [
+      {
+        "chunk_id": 68,
+        "bi_rank": 1,
+        "bi_score": 0.5489813089370728,
+        "ce_rank": 4,
+        "ce_score": -2.5784289836883545
+      },
+      {
+        "chunk_id": 111,
+        "bi_rank": 2,
+        "bi_score": 0.5393266677856445,
+        "ce_rank": 8,
+        "ce_score": -7.493757247924805
+      },
+      {
+        "chunk_id": 75,
+        "bi_rank": 3,
+        "bi_score": 0.5128301382064819,
+        "ce_rank": 7,
+        "ce_score": -7.368943214416504
+      },
+      {
+        "chunk_id": 70,
+        "bi_rank": 4,
+        "bi_score": 0.5121983289718628,
+        "ce_rank": 1,
+        "ce_score": 1.5620605945587158
+      },
+      {
+        "chunk_id": 77,
+        "bi_rank": 5,
+        "bi_score": 0.49288395047187805,
+        "ce_rank": 6,
+        "ce_score": -7.010364532470703
+      },
+      {
+        "chunk_id": 73,
+        "bi_rank": 6,
+        "bi_score": 0.46246451139450073,
+        "ce_rank": 3,
+        "ce_score": -2.321716785430908
+      },
+      {
+        "chunk_id": 76,
+        "bi_rank": 7,
+        "bi_score": 0.4601917266845703,
+        "ce_rank": 2,
+        "ce_score": -2.049160957336426
+      },
+      {
+        "chunk_id": 74,
+        "bi_rank": 8,
+        "bi_score": 0.4454199969768524,
+        "ce_rank": 5,
+        "ce_score": -3.7825679779052734
+      },
+      {
+        "chunk_id": 96,
+        "bi_rank": 9,
+        "bi_score": 0.43598228693008423,
+        "ce_rank": 9,
+        "ce_score": -7.5281453132629395
+      },
+      {
+        "chunk_id": 112,
+        "bi_rank": 10,
+        "bi_score": 0.4125942289829254,
+        "ce_rank": 10,
+        "ce_score": -9.665677070617676
+      }
+    ],
+    "top3_baseline": [
+      68,
+      111,
+      75
+    ],
+    "top3_rerank": [
+      70,
+      76,
+      73
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "According to Section 21(1), a person is disqualified from being appointed or continued as a Member if she \"(a) has been adjudged as an insolvent; (b) has been convicted of an offence, which in the opinion of the Central Government, involves moral turpitude; (c) has become physically or mentally incapable of acting as a Member; (d) has acquired such financial or other interest, as is likely to affect prejudicially her functions as a Member; or (e) has so abused her position as to render her continuance in office prejudicial to the public interest.\"",
+    "llm_1": "gemini-3.7-flash",
+    "llm_2": "gemini-3.7-flash"
+  },
+  {
+    "id": "F2",
+    "category": "Keyword trap / distractor",
+    "query": "What is the maximum penalty for not protecting children's data?",
+    "gold_phrase": "additional obligations in relation to children under section 9",
+    "gold_ids": [
+      118,
+      119
+    ],
+    "top10": [
+      {
+        "chunk_id": 44,
+        "bi_rank": 1,
+        "bi_score": 0.5557767748832703,
+        "ce_rank": 4,
+        "ce_score": -2.3169240951538086
+      },
+      {
+        "chunk_id": 42,
+        "bi_rank": 2,
+        "bi_score": 0.5252733826637268,
+        "ce_rank": 3,
+        "ce_score": -2.0245416164398193
+      },
+      {
+        "chunk_id": 43,
+        "bi_rank": 3,
+        "bi_score": 0.5209249258041382,
+        "ce_rank": 2,
+        "ce_score": -1.004734992980957
+      },
+      {
+        "chunk_id": 118,
+        "bi_rank": 4,
+        "bi_score": 0.5040327906608582,
+        "ce_rank": 1,
+        "ce_score": 0.4871808886528015
+      },
+      {
+        "chunk_id": 109,
+        "bi_rank": 5,
+        "bi_score": 0.4844638407230377,
+        "ce_rank": 5,
+        "ce_score": -5.547642707824707
+      },
+      {
+        "chunk_id": 55,
+        "bi_rank": 6,
+        "bi_score": 0.48291581869125366,
+        "ce_rank": 9,
+        "ce_score": -9.046297073364258
+      },
+      {
+        "chunk_id": 37,
+        "bi_rank": 7,
+        "bi_score": 0.47425854206085205,
+        "ce_rank": 7,
+        "ce_score": -8.347708702087402
+      },
+      {
+        "chunk_id": 56,
+        "bi_rank": 8,
+        "bi_score": 0.46372631192207336,
+        "ce_rank": 8,
+        "ce_score": -8.60114860534668
+      },
+      {
+        "chunk_id": 47,
+        "bi_rank": 9,
+        "bi_score": 0.46325433254241943,
+        "ce_rank": 6,
+        "ce_score": -8.271797180175781
+      },
+      {
+        "chunk_id": 46,
+        "bi_rank": 10,
+        "bi_score": 0.45153677463531494,
+        "ce_rank": 10,
+        "ce_score": -9.826951026916504
+      }
+    ],
+    "top3_baseline": [
+      44,
+      42,
+      43
+    ],
+    "top3_rerank": [
+      118,
+      43,
+      42
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "According to The Schedule [See section 33 (1)], for a \"Breach in observance of additional obligations in relation to children under section 9\", the penalty \"[m]ay extend to two hundred crore rupees.\"",
+    "llm_1": "gemini-3.7-flash",
+    "llm_2": "gemini-3.7-flash"
+  },
+  {
+    "id": "F3",
+    "category": "Exception / corner case",
+    "query": "Does the Act cover data processed for personal or domestic purposes?",
+    "gold_phrase": "for any personal or domestic purpose",
+    "gold_ids": [
+      10
+    ],
+    "top10": [
+      {
+        "chunk_id": 11,
+        "bi_rank": 1,
+        "bi_score": 0.6684067249298096,
+        "ce_rank": 5,
+        "ce_score": 0.4922029674053192
+      },
+      {
+        "chunk_id": 63,
+        "bi_rank": 2,
+        "bi_score": 0.6444932222366333,
+        "ce_rank": 3,
+        "ce_score": 2.3713431358337402
+      },
+      {
+        "chunk_id": 59,
+        "bi_rank": 3,
+        "bi_score": 0.6391851305961609,
+        "ce_rank": 2,
+        "ce_score": 3.001997470855713
+      },
+      {
+        "chunk_id": 10,
+        "bi_rank": 4,
+        "bi_score": 0.619351863861084,
+        "ce_rank": 1,
+        "ce_score": 5.997647762298584
+      },
+      {
+        "chunk_id": 28,
+        "bi_rank": 5,
+        "bi_score": 0.617642879486084,
+        "ce_rank": 8,
+        "ce_score": -1.465984582901001
+      },
+      {
+        "chunk_id": 29,
+        "bi_rank": 6,
+        "bi_score": 0.6058955788612366,
+        "ce_rank": 6,
+        "ce_score": -0.1530042439699173
+      },
+      {
+        "chunk_id": 101,
+        "bi_rank": 7,
+        "bi_score": 0.6056906580924988,
+        "ce_rank": 10,
+        "ce_score": -2.9086248874664307
+      },
+      {
+        "chunk_id": 8,
+        "bi_rank": 8,
+        "bi_score": 0.5933305621147156,
+        "ce_rank": 4,
+        "ce_score": 1.8337620496749878
+      },
+      {
+        "chunk_id": 7,
+        "bi_rank": 9,
+        "bi_score": 0.5896039009094238,
+        "ce_rank": 7,
+        "ce_score": -0.34407883882522583
+      },
+      {
+        "chunk_id": 55,
+        "bi_rank": 10,
+        "bi_score": 0.5891891717910767,
+        "ce_rank": 9,
+        "ce_score": -2.5840115547180176
+      }
+    ],
+    "top3_baseline": [
+      11,
+      63,
+      59
+    ],
+    "top3_rerank": [
+      10,
+      59,
+      63
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "No, the Act does not cover data processed for personal or domestic purposes. According to Section 3, the Act shall \"not apply to— (i) personal data processed by an individual for any personal or domestic purpose\".",
+    "llm_1": "gemini-3.7-flash",
+    "llm_2": "gemini-3.7-flash"
+  },
+  {
+    "id": "F4",
+    "category": "Buried chunk (rank 4-10)",
+    "query": "Can the Board's order be challenged, and within how many days?",
+    "gold_phrase": "within a period of sixty days",
+    "gold_ids": [
+      88
+    ],
+    "top10": [
+      {
+        "chunk_id": 87,
+        "bi_rank": 1,
+        "bi_score": 0.5442041158676147,
+        "ce_rank": 3,
+        "ce_score": -6.128741264343262
+      },
+      {
+        "chunk_id": 73,
+        "bi_rank": 2,
+        "bi_score": 0.5426023006439209,
+        "ce_rank": 6,
+        "ce_score": -8.06503963470459
+      },
+      {
+        "chunk_id": 86,
+        "bi_rank": 3,
+        "bi_score": 0.5250433087348938,
+        "ce_rank": 4,
+        "ce_score": -6.732924938201904
+      },
+      {
+        "chunk_id": 88,
+        "bi_rank": 4,
+        "bi_score": 0.5114290714263916,
+        "ce_rank": 1,
+        "ce_score": -0.35086292028427124
+      },
+      {
+        "chunk_id": 89,
+        "bi_rank": 5,
+        "bi_score": 0.48566243052482605,
+        "ce_rank": 5,
+        "ce_score": -7.350394248962402
+      },
+      {
+        "chunk_id": 115,
+        "bi_rank": 6,
+        "bi_score": 0.47929447889328003,
+        "ce_rank": 8,
+        "ce_score": -9.811188697814941
+      },
+      {
+        "chunk_id": 74,
+        "bi_rank": 7,
+        "bi_score": 0.47152179479599,
+        "ce_rank": 7,
+        "ce_score": -9.16090202331543
+      },
+      {
+        "chunk_id": 82,
+        "bi_rank": 8,
+        "bi_score": 0.46499601006507874,
+        "ce_rank": 10,
+        "ce_score": -10.330358505249023
+      },
+      {
+        "chunk_id": 83,
+        "bi_rank": 9,
+        "bi_score": 0.45723992586135864,
+        "ce_rank": 9,
+        "ce_score": -10.079510688781738
+      },
+      {
+        "chunk_id": 90,
+        "bi_rank": 10,
+        "bi_score": 0.44700688123703003,
+        "ce_rank": 2,
+        "ce_score": -2.008639097213745
+      }
+    ],
+    "top3_baseline": [
+      87,
+      73,
+      86
+    ],
+    "top3_rerank": [
+      88,
+      90,
+      87
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "Yes, the Board's order can be challenged, as Section 29(1) provides that \"[a]ny person aggrieved by an order or direction made by the Board under this Act may prefer an appeal before the Appellate Tribunal.\" According to Section 29(2), this appeal must be filed \"within a period of sixty days from the date of receipt of the order or direction appealed against\".",
+    "llm_1": "gemini-3.7-flash",
+    "llm_2": "gemini-3.7-flash"
+  },
+  {
+    "id": "F5",
+    "category": "Exception / corner case",
+    "query": "Can the Central Government exempt a company from the Act entirely?",
+    "gold_phrase": "before expiry of five years",
+    "gold_ids": [
+      66
+    ],
+    "top10": [
+      {
+        "chunk_id": 100,
+        "bi_rank": 1,
+        "bi_score": 0.49149543046951294,
+        "ce_rank": 3,
+        "ce_score": -0.31460800766944885
+      },
+      {
+        "chunk_id": 64,
+        "bi_rank": 2,
+        "bi_score": 0.46105465292930603,
+        "ce_rank": 1,
+        "ce_score": 0.9008706212043762
+      },
+      {
+        "chunk_id": 65,
+        "bi_rank": 3,
+        "bi_score": 0.4393153190612793,
+        "ce_rank": 5,
+        "ce_score": -1.8029705286026
+      },
+      {
+        "chunk_id": 114,
+        "bi_rank": 4,
+        "bi_score": 0.43169310688972473,
+        "ce_rank": 6,
+        "ce_score": -1.9566251039505005
+      },
+      {
+        "chunk_id": 60,
+        "bi_rank": 5,
+        "bi_score": 0.4291314482688904,
+        "ce_rank": 8,
+        "ce_score": -5.464824676513672
+      },
+      {
+        "chunk_id": 66,
+        "bi_rank": 6,
+        "bi_score": 0.42237311601638794,
+        "ce_rank": 2,
+        "ce_score": 0.8806890249252319
+      },
+      {
+        "chunk_id": 106,
+        "bi_rank": 7,
+        "bi_score": 0.41872942447662354,
+        "ce_rank": 10,
+        "ce_score": -9.286928176879883
+      },
+      {
+        "chunk_id": 101,
+        "bi_rank": 8,
+        "bi_score": 0.3820902109146118,
+        "ce_rank": 7,
+        "ce_score": -2.270308494567871
+      },
+      {
+        "chunk_id": 63,
+        "bi_rank": 9,
+        "bi_score": 0.36601558327674866,
+        "ce_rank": 4,
+        "ce_score": -1.3254237174987793
+      },
+      {
+        "chunk_id": 102,
+        "bi_rank": 10,
+        "bi_score": 0.3641325533390045,
+        "ce_rank": 9,
+        "ce_score": -5.804319381713867
+      }
+    ],
+    "top3_baseline": [
+      100,
+      64,
+      65
+    ],
+    "top3_rerank": [
+      64,
+      66,
+      100
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "Yes, the Central Government can exempt a Data Fiduciary from provisions of the Act under Section 17(5). Section 17(5) states, \"The Central Government may, before expiry of five years from the date of commencement of this Act, by notification, declare that any provision of this Act shall not apply to such Data Fiduciary or classes of Data Fiduciaries for such period as may be specified in the notification.\"",
+    "llm_1": "gemini-3.6-flash",
+    "llm_2": "gemini-3.6-flash"
+  },
+  {
+    "id": "F6",
+    "category": "Keyword trap / distractor",
+    "query": "What is the punishment for a user who gives false information or files a frivolous complaint?",
+    "gold_phrase": "issue a warning or impose costs on the complainant",
+    "gold_ids": [
+      87
+    ],
+    "top10": [
+      {
+        "chunk_id": 97,
+        "bi_rank": 1,
+        "bi_score": 0.4377409815788269,
+        "ce_rank": 6,
+        "ce_score": -8.60846996307373
+      },
+      {
+        "chunk_id": 56,
+        "bi_rank": 2,
+        "bi_score": 0.4329729676246643,
+        "ce_rank": 1,
+        "ce_score": 1.4067453145980835
+      },
+      {
+        "chunk_id": 79,
+        "bi_rank": 3,
+        "bi_score": 0.43046659231185913,
+        "ce_rank": 4,
+        "ce_score": -5.254114151000977
+      },
+      {
+        "chunk_id": 80,
+        "bi_rank": 4,
+        "bi_score": 0.40731948614120483,
+        "ce_rank": 3,
+        "ce_score": -5.130592346191406
+      },
+      {
+        "chunk_id": 18,
+        "bi_rank": 5,
+        "bi_score": 0.39128774404525757,
+        "ce_rank": 5,
+        "ce_score": -8.5293550491333
+      },
+      {
+        "chunk_id": 15,
+        "bi_rank": 6,
+        "bi_score": 0.3883480429649353,
+        "ce_rank": 8,
+        "ce_score": -9.543839454650879
+      },
+      {
+        "chunk_id": 98,
+        "bi_rank": 7,
+        "bi_score": 0.37289246916770935,
+        "ce_rank": 7,
+        "ce_score": -9.38725757598877
+      },
+      {
+        "chunk_id": 87,
+        "bi_rank": 8,
+        "bi_score": 0.368537575006485,
+        "ce_rank": 2,
+        "ce_score": -1.312503695487976
+      },
+      {
+        "chunk_id": 37,
+        "bi_rank": 9,
+        "bi_score": 0.3668968081474304,
+        "ce_rank": 9,
+        "ce_score": -10.273980140686035
+      },
+      {
+        "chunk_id": 40,
+        "bi_rank": 10,
+        "bi_score": 0.36686426401138306,
+        "ce_rank": 10,
+        "ce_score": -10.935734748840332
+      }
+    ],
+    "top3_baseline": [
+      97,
+      56,
+      79
+    ],
+    "top3_rerank": [
+      56,
+      87,
+      80
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "According to Section 28(12), if the Board is of the opinion that a complaint is false or frivolous, \"it may issue a warning or impose costs on the complainant.\" Additionally, Section 15 sets the duties of a Data Principal \"to ensure not to register a false or frivolous grievance or complaint\" and \"to furnish only such information as is verifiably authentic\".",
+    "llm_1": "gemini-3.6-flash",
+    "llm_2": "gemini-3.6-flash"
+  },
+  {
+    "id": "L1",
+    "category": "Limitation: re-ranking hurts",
+    "query": "Is parental consent always required before processing a child's personal data?",
+    "gold_phrase": "shall not be applicable to processing of personal data of a child",
+    "gold_ids": [
+      43,
+      44
+    ],
+    "top10": [
+      {
+        "chunk_id": 42,
+        "bi_rank": 1,
+        "bi_score": 0.7071821093559265,
+        "ce_rank": 1,
+        "ce_score": 7.549427032470703
+      },
+      {
+        "chunk_id": 44,
+        "bi_rank": 2,
+        "bi_score": 0.6265606880187988,
+        "ce_rank": 5,
+        "ce_score": 1.813307762145996
+      },
+      {
+        "chunk_id": 43,
+        "bi_rank": 3,
+        "bi_score": 0.5969785451889038,
+        "ce_rank": 7,
+        "ce_score": 1.320657730102539
+      },
+      {
+        "chunk_id": 3,
+        "bi_rank": 4,
+        "bi_score": 0.5438790321350098,
+        "ce_rank": 10,
+        "ce_score": -1.0206106901168823
+      },
+      {
+        "chunk_id": 20,
+        "bi_rank": 5,
+        "bi_score": 0.534858226776123,
+        "ce_rank": 2,
+        "ce_score": 3.712019443511963
+      },
+      {
+        "chunk_id": 12,
+        "bi_rank": 6,
+        "bi_score": 0.5205748081207275,
+        "ce_rank": 6,
+        "ce_score": 1.3906127214431763
+      },
+      {
+        "chunk_id": 22,
+        "bi_rank": 7,
+        "bi_score": 0.5200692415237427,
+        "ce_rank": 3,
+        "ce_score": 3.6365647315979004
+      },
+      {
+        "chunk_id": 51,
+        "bi_rank": 8,
+        "bi_score": 0.5183864831924438,
+        "ce_rank": 9,
+        "ce_score": 0.4860735535621643
+      },
+      {
+        "chunk_id": 48,
+        "bi_rank": 9,
+        "bi_score": 0.5091120004653931,
+        "ce_rank": 8,
+        "ce_score": 0.6231412887573242
+      },
+      {
+        "chunk_id": 17,
+        "bi_rank": 10,
+        "bi_score": 0.5072277188301086,
+        "ce_rank": 4,
+        "ce_score": 2.480806350708008
+      }
+    ],
+    "top3_baseline": [
+      42,
+      44,
+      43
+    ],
+    "top3_rerank": [
+      42,
+      20,
+      22
+    ],
+    "answer_1": "No, parental consent is not always required before processing a child's personal data. Under Section 9(4), \"The provisions of sub-sections (1) and (3) shall not be applicable to processing of personal data of a child by such classes of Data Fiduciaries or for such purposes, and subject to such conditions, as may be prescribed.\" Additionally, Section 9(5) allows the Central Government to exempt certain Data Fiduciaries from sub-section (1) if processing \"is done in a manner that is verifiably safe\".",
+    "answer_2": "Section 9(1) states that \"[t]he Data Fiduciary shall, before processing any personal data of a child or a person with disability who has a lawful guardian obtain verifiable consent of the parent of such child or the lawful guardian, as the case may be, in such manner as may be prescribed.\" Therefore, verifiable consent from either a parent or a lawful guardian is required prior to processing a child's personal data.",
+    "llm_1": "gemini-3.6-flash",
+    "llm_2": "gemini-3.6-flash"
+  },
+  {
+    "id": "L2",
+    "category": "Limitation: recall ceiling",
+    "query": "Can I complain to the Board directly without first going to the company?",
+    "gold_phrase": "exhaust the opportunity of redressing her grievance",
+    "gold_ids": [
+      53
+    ],
+    "top10": [
+      {
+        "chunk_id": 87,
+        "bi_rank": 1,
+        "bi_score": 0.5896241664886475,
+        "ce_rank": 2,
+        "ce_score": -4.956040382385254
+      },
+      {
+        "chunk_id": 83,
+        "bi_rank": 2,
+        "bi_score": 0.508752167224884,
+        "ce_rank": 3,
+        "ce_score": -6.479267120361328
+      },
+      {
+        "chunk_id": 73,
+        "bi_rank": 3,
+        "bi_score": 0.41738951206207275,
+        "ce_rank": 4,
+        "ce_score": -8.139941215515137
+      },
+      {
+        "chunk_id": 94,
+        "bi_rank": 4,
+        "bi_score": 0.4155440330505371,
+        "ce_rank": 1,
+        "ce_score": -3.5407681465148926
+      },
+      {
+        "chunk_id": 84,
+        "bi_rank": 5,
+        "bi_score": 0.3964610695838928,
+        "ce_rank": 7,
+        "ce_score": -10.501022338867188
+      },
+      {
+        "chunk_id": 82,
+        "bi_rank": 6,
+        "bi_score": 0.3954082727432251,
+        "ce_rank": 6,
+        "ce_score": -10.220878601074219
+      },
+      {
+        "chunk_id": 74,
+        "bi_rank": 7,
+        "bi_score": 0.3771699070930481,
+        "ce_rank": 10,
+        "ce_score": -10.660737991333008
+      },
+      {
+        "chunk_id": 67,
+        "bi_rank": 8,
+        "bi_score": 0.3738381862640381,
+        "ce_rank": 8,
+        "ce_score": -10.580549240112305
+      },
+      {
+        "chunk_id": 86,
+        "bi_rank": 9,
+        "bi_score": 0.3722500801086426,
+        "ce_rank": 5,
+        "ce_score": -8.841047286987305
+      },
+      {
+        "chunk_id": 81,
+        "bi_rank": 10,
+        "bi_score": 0.3486277461051941,
+        "ce_rank": 9,
+        "ce_score": -10.593273162841797
+      }
+    ],
+    "top3_baseline": [
+      87,
+      83,
+      73
+    ],
+    "top3_rerank": [
+      94,
+      87,
+      83
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "The provided context does not contain the answer.",
+    "llm_1": "gemini-3.5-flash",
+    "llm_2": "gemini-3.6-flash"
+  }
+]

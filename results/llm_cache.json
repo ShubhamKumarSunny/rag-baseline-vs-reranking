@@ -1,0 +1,200 @@
+{
+  "73d6d46d3114a0f8": {
+    "model": "gemini-3.7-flash",
+    "query": "Can Board members be sued for actions done in good faith?",
+    "context_ids": [
+      100,
+      73,
+      106
+    ],
+    "answer": "No, Board members cannot be sued for actions done in good faith. According to Section 35, \"No suit, prosecution or other legal proceedings shall lie against the Central Government, the Board, its Chairperson and any Member, officer or employee thereof for anything which is done or intended to be done in good faith under the provisions of this Act or the rules made thereunder.\"",
+    "ms": 4694.5
+  },
+  "959c540820a49bb7": {
+    "model": "gemini-3.7-flash",
+    "query": "Can Board members be sued for actions done in good faith?",
+    "context_ids": [
+      100,
+      106,
+      85
+    ],
+    "answer": "No, Board members cannot be sued for actions done in good faith. According to Section 35, \"No suit, prosecution or other legal proceedings shall lie against the Central Government, the Board, its Chairperson and any Member, officer or employee thereof for anything which is done or intended to be done in good faith under the provisions of this Act or the rules made thereunder.\"",
+    "ms": 4386.2
+  },
+  "b9ac43a2bc92f754": {
+    "model": "gemini-3.7-flash",
+    "query": "Who is not eligible to be a Member of the Board?",
+    "context_ids": [
+      68,
+      111,
+      75
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 8103.3
+  },
+  "1ee9a744996fc8bd": {
+    "model": "gemini-3.7-flash",
+    "query": "Who is not eligible to be a Member of the Board?",
+    "context_ids": [
+      70,
+      76,
+      73
+    ],
+    "answer": "According to Section 21(1), a person is disqualified from being appointed or continued as a Member if she \"(a) has been adjudged as an insolvent; (b) has been convicted of an offence, which in the opinion of the Central Government, involves moral turpitude; (c) has become physically or mentally incapable of acting as a Member; (d) has acquired such financial or other interest, as is likely to affect prejudicially her functions as a Member; or (e) has so abused her position as to render her continuance in office prejudicial to the public interest.\"",
+    "ms": 8580.5
+  },
+  "e12f2dda1ee0fc04": {
+    "model": "gemini-3.7-flash",
+    "query": "What is the maximum penalty for not protecting children's data?",
+    "context_ids": [
+      44,
+      42,
+      43
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 13343.0
+  },
+  "dff218f2ce05da77": {
+    "model": "gemini-3.7-flash",
+    "query": "What is the maximum penalty for not protecting children's data?",
+    "context_ids": [
+      118,
+      43,
+      42
+    ],
+    "answer": "According to The Schedule [See section 33 (1)], for a \"Breach in observance of additional obligations in relation to children under section 9\", the penalty \"[m]ay extend to two hundred crore rupees.\"",
+    "ms": NaN
+  },
+  "62dab524fe39d1f0": {
+    "model": "gemini-3.7-flash",
+    "query": "Does the Act cover data processed for personal or domestic purposes?",
+    "context_ids": [
+      11,
+      63,
+      59
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": NaN
+  },
+  "92782d5a15a86c74": {
+    "model": "gemini-3.7-flash",
+    "query": "Does the Act cover data processed for personal or domestic purposes?",
+    "context_ids": [
+      10,
+      59,
+      63
+    ],
+    "answer": "No, the Act does not cover data processed for personal or domestic purposes. According to Section 3, the Act shall \"not apply to— (i) personal data processed by an individual for any personal or domestic purpose\".",
+    "ms": NaN
+  },
+  "166eb7a3acb659f0": {
+    "model": "gemini-3.7-flash",
+    "query": "Can the Board's order be challenged, and within how many days?",
+    "context_ids": [
+      87,
+      73,
+      86
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": NaN
+  },
+  "19ca9894ceae6d59": {
+    "model": "gemini-3.7-flash",
+    "query": "Can the Board's order be challenged, and within how many days?",
+    "context_ids": [
+      88,
+      90,
+      87
+    ],
+    "answer": "Yes, the Board's order can be challenged, as Section 29(1) provides that \"[a]ny person aggrieved by an order or direction made by the Board under this Act may prefer an appeal before the Appellate Tribunal.\" According to Section 29(2), this appeal must be filed \"within a period of sixty days from the date of receipt of the order or direction appealed against\".",
+    "ms": NaN
+  },
+  "30fbd687a897b704": {
+    "model": "gemini-3.6-flash",
+    "query": "Can the Central Government exempt a company from the Act entirely?",
+    "context_ids": [
+      100,
+      64,
+      65
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 5489.9
+  },
+  "12c03a56b4d1746d": {
+    "model": "gemini-3.6-flash",
+    "query": "Can the Central Government exempt a company from the Act entirely?",
+    "context_ids": [
+      64,
+      66,
+      100
+    ],
+    "answer": "Yes, the Central Government can exempt a Data Fiduciary from provisions of the Act under Section 17(5). Section 17(5) states, \"The Central Government may, before expiry of five years from the date of commencement of this Act, by notification, declare that any provision of this Act shall not apply to such Data Fiduciary or classes of Data Fiduciaries for such period as may be specified in the notification.\"",
+    "ms": 7154.9
+  },
+  "b79c05cc7d05d147": {
+    "model": "gemini-3.6-flash",
+    "query": "What is the punishment for a user who gives false information or files a frivolous complaint?",
+    "context_ids": [
+      97,
+      56,
+      79
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 8800.5
+  },
+  "a42b415d0b37af40": {
+    "model": "gemini-3.6-flash",
+    "query": "What is the punishment for a user who gives false information or files a frivolous complaint?",
+    "context_ids": [
+      56,
+      87,
+      80
+    ],
+    "answer": "According to Section 28(12), if the Board is of the opinion that a complaint is false or frivolous, \"it may issue a warning or impose costs on the complainant.\" Additionally, Section 15 sets the duties of a Data Principal \"to ensure not to register a false or frivolous grievance or complaint\" and \"to furnish only such information as is verifiably authentic\".",
+    "ms": 6673.4
+  },
+  "50172f6c10726dd8": {
+    "model": "gemini-3.6-flash",
+    "query": "Is parental consent always required before processing a child's personal data?",
+    "context_ids": [
+      42,
+      44,
+      43
+    ],
+    "answer": "No, parental consent is not always required before processing a child's personal data. Under Section 9(4), \"The provisions of sub-sections (1) and (3) shall not be applicable to processing of personal data of a child by such classes of Data Fiduciaries or for such purposes, and subject to such conditions, as may be prescribed.\" Additionally, Section 9(5) allows the Central Government to exempt certain Data Fiduciaries from sub-section (1) if processing \"is done in a manner that is verifiably safe\".",
+    "ms": 6814.6
+  },
+  "7066ab9e1410a99d": {
+    "model": "gemini-3.6-flash",
+    "query": "Is parental consent always required before processing a child's personal data?",
+    "context_ids": [
+      42,
+      20,
+      22
+    ],
+    "answer": "Section 9(1) states that \"[t]he Data Fiduciary shall, before processing any personal data of a child or a person with disability who has a lawful guardian obtain verifiable consent of the parent of such child or the lawful guardian, as the case may be, in such manner as may be prescribed.\" Therefore, verifiable consent from either a parent or a lawful guardian is required prior to processing a child's personal data.",
+    "ms": 5820.3
+  },
+  "34ee07c2f392e7bf": {
+    "model": "gemini-3.5-flash",
+    "query": "Can I complain to the Board directly without first going to the company?",
+    "context_ids": [
+      87,
+      83,
+      73
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 11303.8
+  },
+  "29d6aa3e27edc7af": {
+    "model": "gemini-3.6-flash",
+    "query": "Can I complain to the Board directly without first going to the company?",
+    "context_ids": [
+      94,
+      87,
+      83
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 3612.9
+  }
+}

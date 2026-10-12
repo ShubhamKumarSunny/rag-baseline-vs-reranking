@@ -1,0 +1,4 @@
+,mean (ms),median (ms),std (ms),p95 (ms),x baseline
+Pipeline 1: baseline retrieval (embed query + FAISS top-10),5.27,5.19,0.27,5.89,1.0
+Extra cost of Cross-Encoder (10 pairs),130.54,132.21,8.9,142.58,24.78
+Pipeline 2: retrieval + re-ranking,135.81,137.45,9.0,147.74,25.78

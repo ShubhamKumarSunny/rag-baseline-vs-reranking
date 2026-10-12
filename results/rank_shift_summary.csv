@@ -1,0 +1,9 @@
+id,category,query,gold chunk rank (baseline),gold chunk rank (re-ranked),gold in baseline top 3,gold in re-ranked top 3
+F1,Negation & constraints,Who is not eligible to be a Member of the Board?,4,1,False,True
+F2,Keyword trap / distractor,What is the maximum penalty for not protecting children's data?,4,1,False,True
+F3,Exception / corner case,Does the Act cover data processed for personal or domestic purposes?,4,1,False,True
+F4,Buried chunk (rank 4-10),"Can the Board's order be challenged, and within how many days?",4,1,False,True
+F5,Exception / corner case,Can the Central Government exempt a company from the Act entirely?,6,2,False,True
+F6,Keyword trap / distractor,What is the punishment for a user who gives false information or files a frivolous complaint?,8,2,False,True
+L1,Limitation: re-ranking hurts,Is parental consent always required before processing a child's personal data?,2,5,True,False
+L2,Limitation: recall ceiling,Can I complain to the Board directly without first going to the company?,>10,>10,False,False
