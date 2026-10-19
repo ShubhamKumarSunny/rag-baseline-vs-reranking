@@ -186,7 +186,7 @@
       42
     ],
     "answer_1": "The provided context does not contain the answer.",
-    "answer_2": "According to The Schedule [See section 33 (1)], for a \"Breach in observance of additional obligations in relation to children under section 9\", the penalty \"[m]ay extend to two hundred crore rupees.\"",
+    "answer_2": "According to the Schedule [See section 33 (1)], the penalty for a \"Breach in observance of additional obligations in relation to children under section 9\" \"[m]ay extend to two hundred crore rupees.\" Therefore, the maximum penalty is two hundred crore rupees.",
     "llm_1": "gemini-3.7-flash",
     "llm_2": "gemini-3.7-flash"
   },
@@ -376,9 +376,9 @@
       87
     ],
     "answer_1": "The provided context does not contain the answer.",
-    "answer_2": "Yes, the Board's order can be challenged, as Section 29(1) provides that \"[a]ny person aggrieved by an order or direction made by the Board under this Act may prefer an appeal before the Appellate Tribunal.\" According to Section 29(2), this appeal must be filed \"within a period of sixty days from the date of receipt of the order or direction appealed against\".",
-    "llm_1": "gemini-3.7-flash",
-    "llm_2": "gemini-3.7-flash"
+    "answer_2": "Yes, an order of the Board can be challenged. Section 29(1) provides that \"[a]ny person aggrieved by an order or direction made by the Board under this Act may prefer an appeal before the Appellate Tribunal.\" Furthermore, Section 29(2) states that \"[e]very appeal under sub-section (1) shall be filed within a period of sixty days from the date of receipt of the order or direction appealed against\".",
+    "llm_1": "gemini-3.6-flash",
+    "llm_2": "gemini-3.6-flash"
   },
   {
     "id": "F5",
@@ -567,6 +567,196 @@
     ],
     "answer_1": "The provided context does not contain the answer.",
     "answer_2": "According to Section 28(12), if the Board is of the opinion that a complaint is false or frivolous, \"it may issue a warning or impose costs on the complainant.\" Additionally, Section 15 sets the duties of a Data Principal \"to ensure not to register a false or frivolous grievance or complaint\" and \"to furnish only such information as is verifiably authentic\".",
+    "llm_1": "gemini-3.6-flash",
+    "llm_2": "gemini-3.6-flash"
+  },
+  {
+    "id": "F7",
+    "category": "Exception / corner case",
+    "query": "Does the Act apply when a court processes personal data?",
+    "gold_phrase": "entrusted by law with the performance of any judicial",
+    "gold_ids": [
+      58
+    ],
+    "top10": [
+      {
+        "chunk_id": 7,
+        "bi_rank": 1,
+        "bi_score": 0.6716223955154419,
+        "ce_rank": 5,
+        "ce_score": 2.9356448650360107
+      },
+      {
+        "chunk_id": 11,
+        "bi_rank": 2,
+        "bi_score": 0.6545758247375488,
+        "ce_rank": 1,
+        "ce_score": 5.2257981300354
+      },
+      {
+        "chunk_id": 26,
+        "bi_rank": 3,
+        "bi_score": 0.5994260311126709,
+        "ce_rank": 9,
+        "ce_score": -0.48528236150741577
+      },
+      {
+        "chunk_id": 79,
+        "bi_rank": 4,
+        "bi_score": 0.5971843004226685,
+        "ce_rank": 6,
+        "ce_score": 2.50836181640625
+      },
+      {
+        "chunk_id": 16,
+        "bi_rank": 5,
+        "bi_score": 0.5902614593505859,
+        "ce_rank": 4,
+        "ce_score": 3.993417978286743
+      },
+      {
+        "chunk_id": 27,
+        "bi_rank": 6,
+        "bi_score": 0.5879638195037842,
+        "ce_rank": 10,
+        "ce_score": -3.934023380279541
+      },
+      {
+        "chunk_id": 58,
+        "bi_rank": 7,
+        "bi_score": 0.5860393047332764,
+        "ce_rank": 2,
+        "ce_score": 4.942142486572266
+      },
+      {
+        "chunk_id": 35,
+        "bi_rank": 8,
+        "bi_score": 0.5856293439865112,
+        "ce_rank": 8,
+        "ce_score": 1.1613438129425049
+      },
+      {
+        "chunk_id": 10,
+        "bi_rank": 9,
+        "bi_score": 0.5772989988327026,
+        "ce_rank": 3,
+        "ce_score": 4.424983024597168
+      },
+      {
+        "chunk_id": 63,
+        "bi_rank": 10,
+        "bi_score": 0.5750937461853027,
+        "ce_rank": 7,
+        "ce_score": 1.3160556554794312
+      }
+    ],
+    "top3_baseline": [
+      7,
+      11,
+      26
+    ],
+    "top3_rerank": [
+      11,
+      58,
+      10
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "According to Section 17(1)(b), provisions of Chapter II (except sub-sections (1) and (5) of section 8), Chapter III, and section 16 do not apply where \"(b) the processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function;\". Therefore, these specified provisions of the Act do not apply when a court processes personal data necessary for performing its judicial functions.",
+    "llm_1": "gemini-3.6-flash",
+    "llm_2": "gemini-3.6-flash"
+  },
+  {
+    "id": "F8",
+    "category": "Negation & constraints",
+    "query": "Can the salary of Board Members be reduced after they are appointed?",
+    "gold_phrase": "shall not be varied to their disadvantage",
+    "gold_ids": [
+      69
+    ],
+    "top10": [
+      {
+        "chunk_id": 75,
+        "bi_rank": 1,
+        "bi_score": 0.4936838150024414,
+        "ce_rank": 3,
+        "ce_score": -5.005740165710449
+      },
+      {
+        "chunk_id": 77,
+        "bi_rank": 2,
+        "bi_score": 0.46305277943611145,
+        "ce_rank": 10,
+        "ce_score": -10.438583374023438
+      },
+      {
+        "chunk_id": 70,
+        "bi_rank": 3,
+        "bi_score": 0.457322895526886,
+        "ce_rank": 2,
+        "ce_score": -4.179106712341309
+      },
+      {
+        "chunk_id": 111,
+        "bi_rank": 4,
+        "bi_score": 0.4495878219604492,
+        "ce_rank": 5,
+        "ce_score": -6.5740227699279785
+      },
+      {
+        "chunk_id": 74,
+        "bi_rank": 5,
+        "bi_score": 0.4464152455329895,
+        "ce_rank": 8,
+        "ce_score": -8.908529281616211
+      },
+      {
+        "chunk_id": 69,
+        "bi_rank": 6,
+        "bi_score": 0.44276759028434753,
+        "ce_rank": 1,
+        "ce_score": 1.1317534446716309
+      },
+      {
+        "chunk_id": 68,
+        "bi_rank": 7,
+        "bi_score": 0.43001365661621094,
+        "ce_rank": 4,
+        "ce_score": -5.8807220458984375
+      },
+      {
+        "chunk_id": 82,
+        "bi_rank": 8,
+        "bi_score": 0.3955102860927582,
+        "ce_rank": 9,
+        "ce_score": -10.047550201416016
+      },
+      {
+        "chunk_id": 73,
+        "bi_rank": 9,
+        "bi_score": 0.3916727602481842,
+        "ce_rank": 7,
+        "ce_score": -8.512378692626953
+      },
+      {
+        "chunk_id": 72,
+        "bi_rank": 10,
+        "bi_score": 0.38116690516471863,
+        "ce_rank": 6,
+        "ce_score": -7.590190887451172
+      }
+    ],
+    "top3_baseline": [
+      75,
+      77,
+      70
+    ],
+    "top3_rerank": [
+      69,
+      70,
+      75
+    ],
+    "answer_1": "The provided context does not contain the answer.",
+    "answer_2": "No, the salary of Board Members cannot be reduced after they are appointed. Section 20(1) provides that \"The salary, allowances and other terms and conditions of service of the Chairperson and other Members shall be such as may be prescribed, and shall not be varied to their disadvantage after their appointment.\"",
     "llm_1": "gemini-3.6-flash",
     "llm_2": "gemini-3.6-flash"
   },

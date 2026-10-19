@@ -7,5 +7,5 @@ numpy
 pandas
 matplotlib
 jupyter
-# optional, only if GEMINI_API_KEY is set:
-# google-genai
+# LLM backend (Gemini API, used when GEMINI_API_KEY is set; otherwise a local model is used)
+google-genai

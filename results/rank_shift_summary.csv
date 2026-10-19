@@ -5,5 +5,7 @@ F3,Exception / corner case,Does the Act cover data processed for personal or dom
 F4,Buried chunk (rank 4-10),"Can the Board's order be challenged, and within how many days?",4,1,False,True
 F5,Exception / corner case,Can the Central Government exempt a company from the Act entirely?,6,2,False,True
 F6,Keyword trap / distractor,What is the punishment for a user who gives false information or files a frivolous complaint?,8,2,False,True
+F7,Exception / corner case,Does the Act apply when a court processes personal data?,7,2,False,True
+F8,Negation & constraints,Can the salary of Board Members be reduced after they are appointed?,6,1,False,True
 L1,Limitation: re-ranking hurts,Is parental consent always required before processing a child's personal data?,2,5,True,False
 L2,Limitation: recall ceiling,Can I complain to the Board directly without first going to the company?,>10,>10,False,False

@@ -54,61 +54,6 @@
     "answer": "The provided context does not contain the answer.",
     "ms": 13343.0
   },
-  "dff218f2ce05da77": {
-    "model": "gemini-3.7-flash",
-    "query": "What is the maximum penalty for not protecting children's data?",
-    "context_ids": [
-      118,
-      43,
-      42
-    ],
-    "answer": "According to The Schedule [See section 33 (1)], for a \"Breach in observance of additional obligations in relation to children under section 9\", the penalty \"[m]ay extend to two hundred crore rupees.\"",
-    "ms": NaN
-  },
-  "62dab524fe39d1f0": {
-    "model": "gemini-3.7-flash",
-    "query": "Does the Act cover data processed for personal or domestic purposes?",
-    "context_ids": [
-      11,
-      63,
-      59
-    ],
-    "answer": "The provided context does not contain the answer.",
-    "ms": NaN
-  },
-  "92782d5a15a86c74": {
-    "model": "gemini-3.7-flash",
-    "query": "Does the Act cover data processed for personal or domestic purposes?",
-    "context_ids": [
-      10,
-      59,
-      63
-    ],
-    "answer": "No, the Act does not cover data processed for personal or domestic purposes. According to Section 3, the Act shall \"not apply to— (i) personal data processed by an individual for any personal or domestic purpose\".",
-    "ms": NaN
-  },
-  "166eb7a3acb659f0": {
-    "model": "gemini-3.7-flash",
-    "query": "Can the Board's order be challenged, and within how many days?",
-    "context_ids": [
-      87,
-      73,
-      86
-    ],
-    "answer": "The provided context does not contain the answer.",
-    "ms": NaN
-  },
-  "19ca9894ceae6d59": {
-    "model": "gemini-3.7-flash",
-    "query": "Can the Board's order be challenged, and within how many days?",
-    "context_ids": [
-      88,
-      90,
-      87
-    ],
-    "answer": "Yes, the Board's order can be challenged, as Section 29(1) provides that \"[a]ny person aggrieved by an order or direction made by the Board under this Act may prefer an appeal before the Appellate Tribunal.\" According to Section 29(2), this appeal must be filed \"within a period of sixty days from the date of receipt of the order or direction appealed against\".",
-    "ms": NaN
-  },
   "30fbd687a897b704": {
     "model": "gemini-3.6-flash",
     "query": "Can the Central Government exempt a company from the Act entirely?",
@@ -196,5 +141,104 @@
     ],
     "answer": "The provided context does not contain the answer.",
     "ms": 3612.9
+  },
+  "dff218f2ce05da77": {
+    "model": "gemini-3.7-flash",
+    "query": "What is the maximum penalty for not protecting children's data?",
+    "context_ids": [
+      118,
+      43,
+      42
+    ],
+    "answer": "According to the Schedule [See section 33 (1)], the penalty for a \"Breach in observance of additional obligations in relation to children under section 9\" \"[m]ay extend to two hundred crore rupees.\" Therefore, the maximum penalty is two hundred crore rupees.",
+    "ms": 240377.3
+  },
+  "62dab524fe39d1f0": {
+    "model": "gemini-3.7-flash",
+    "query": "Does the Act cover data processed for personal or domestic purposes?",
+    "context_ids": [
+      11,
+      63,
+      59
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 79235.7
+  },
+  "92782d5a15a86c74": {
+    "model": "gemini-3.7-flash",
+    "query": "Does the Act cover data processed for personal or domestic purposes?",
+    "context_ids": [
+      10,
+      59,
+      63
+    ],
+    "answer": "No, the Act does not cover data processed for personal or domestic purposes. According to Section 3, the Act shall \"not apply to— (i) personal data processed by an individual for any personal or domestic purpose\".",
+    "ms": 89349.6
+  },
+  "166eb7a3acb659f0": {
+    "model": "gemini-3.6-flash",
+    "query": "Can the Board's order be challenged, and within how many days?",
+    "context_ids": [
+      87,
+      73,
+      86
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 4744.3
+  },
+  "19ca9894ceae6d59": {
+    "model": "gemini-3.6-flash",
+    "query": "Can the Board's order be challenged, and within how many days?",
+    "context_ids": [
+      88,
+      90,
+      87
+    ],
+    "answer": "Yes, an order of the Board can be challenged. Section 29(1) provides that \"[a]ny person aggrieved by an order or direction made by the Board under this Act may prefer an appeal before the Appellate Tribunal.\" Furthermore, Section 29(2) states that \"[e]very appeal under sub-section (1) shall be filed within a period of sixty days from the date of receipt of the order or direction appealed against\".",
+    "ms": 5518.3
+  },
+  "4854b73e3b0596b7": {
+    "model": "gemini-3.6-flash",
+    "query": "Does the Act apply when a court processes personal data?",
+    "context_ids": [
+      7,
+      11,
+      26
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 3406.2
+  },
+  "724d3009ee8bd4c3": {
+    "model": "gemini-3.6-flash",
+    "query": "Does the Act apply when a court processes personal data?",
+    "context_ids": [
+      11,
+      58,
+      10
+    ],
+    "answer": "According to Section 17(1)(b), provisions of Chapter II (except sub-sections (1) and (5) of section 8), Chapter III, and section 16 do not apply where \"(b) the processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function;\". Therefore, these specified provisions of the Act do not apply when a court processes personal data necessary for performing its judicial functions.",
+    "ms": 6645.8
+  },
+  "5231805e036cad0b": {
+    "model": "gemini-3.6-flash",
+    "query": "Can the salary of Board Members be reduced after they are appointed?",
+    "context_ids": [
+      75,
+      77,
+      70
+    ],
+    "answer": "The provided context does not contain the answer.",
+    "ms": 2950.0
+  },
+  "59c013755553a5f8": {
+    "model": "gemini-3.6-flash",
+    "query": "Can the salary of Board Members be reduced after they are appointed?",
+    "context_ids": [
+      69,
+      70,
+      75
+    ],
+    "answer": "No, the salary of Board Members cannot be reduced after they are appointed. Section 20(1) provides that \"The salary, allowances and other terms and conditions of service of the Chairperson and other Members shall be such as may be prescribed, and shall not be varied to their disadvantage after their appointment.\"",
+    "ms": 3933.4
   }
 }
