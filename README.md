@@ -8,6 +8,7 @@ Two retrieval pipelines over the same chunked PDF, compared on queries where pla
 - **LLM:** Gemini API (`gemini-3.7-flash`, falling back to `gemini-3.6-flash` / `gemini-3.5-flash` when the free daily quota of a model is used up or a model stops responding for 60 s); same prompt for both pipelines. Without a key the notebook falls back to a local `Qwen/Qwen2.5-0.5B-Instruct`.
 
 Everything is in one notebook: [`RAG_baseline_vs_reranking.ipynb`](RAG_baseline_vs_reranking.ipynb).
+The report is [`report/report.pdf`](report/report.pdf).
 
 ## Run
 
@@ -25,6 +26,7 @@ The two retrieval models (about 180 MB) are downloaded from Hugging Face on the 
 | Path | Content |
 |---|---|
 | `RAG_baseline_vs_reranking.ipynb` | all code, with outputs |
+| `report/report.pdf` | the report |
 | `data/DPDP_Act_2023.pdf` | the source document |
 | `results/rank_shift_summary.csv` | rank of the answer chunk before / after re-ranking |
 | `results/queries_and_answers.json` | Top-10 with both scores, Answer 1 and Answer 2 per query |
